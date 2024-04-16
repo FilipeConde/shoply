@@ -3,18 +3,21 @@
     "name": "Refrigerante",
     "description": "Bebida doce 350ml",
     "price": 3.5,
-    "category": "Bebidas"
+    "category": "Bebidas",
+    "image": ""
   },
   {
     "name": "Água",
     "description": "Bebida saudável 350ml",
     "price": 2,
-    "category": "Bebidas"
+    "category": "Bebidas",
+    "image": ""
   },
   {
     "name": "Chocolate",
     "description": "Força pra continuar",
     "price": 5,
-    "category": "Doces"
+    "category": "Doces",
+    "image": ""
   }
 ]
