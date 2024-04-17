@@ -1,7 +1,7 @@
 <template>
   <div class="container" v-for="product in products" :key="product.name">
     <div class="container__product-data">
-      <img src="" alt="" class="product-img product">
+      <img :src="product.image" alt="" class="product-img product">
       <div class="product-data product">
         <h1 class="product-name">{{ product.name }}</h1>
         <p class="product-description">{{ product.description }}</p>
@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import productsJson from '@/fixtures/productList.json'
+import productsJson from '../fixtures/productList.json'
 import IProduct from '@/interfaces/IProduct'
 
 export default defineComponent({

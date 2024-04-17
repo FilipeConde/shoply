@@ -11,7 +11,7 @@
     "description": "Bebida saudável 350ml",
     "price": 2,
     "category": "Bebidas",
-    "image": "src/assets/products/water-bottle.png"
+    "image": "src/assets/angle-left.svg"
   },
   {
     "name": "Chocolate",
