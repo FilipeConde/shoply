@@ -29,4 +29,31 @@ export default defineComponent({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+.container__product-data {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.product-img {
+  height: 100px;
+  padding: 0 1rem;
+}
+
+.product-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 14px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 14px;
+  margin: 0;
+}
+
+</style>
